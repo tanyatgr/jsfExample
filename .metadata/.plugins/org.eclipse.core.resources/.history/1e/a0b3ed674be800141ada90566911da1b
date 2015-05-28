@@ -1,0 +1,22 @@
+package com.bionics.edu;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext(
+				"beans.xml");
+		
+		
+		MerchantService merchantService = context
+				.getBean(MerchantService.class);
+		Merchant m1 = merchantService.findById(1);
+		System.out.println("name = " + m1.getName());
+		
+		CustomerService customerService = context.getBean(CustomerService.class);
+		Customer c1 = customerService.findById(1);
+		System.out.println(c1.toString());
+	}
+}

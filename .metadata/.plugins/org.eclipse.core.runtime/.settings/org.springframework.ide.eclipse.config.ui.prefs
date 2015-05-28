@@ -1,0 +1,4 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/P211BeanDefinition/src/main/resources/META-INF/spring/app-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/P211BeanDefinition/src/test/resources/com/bionic/edu/ExampleConfigurationTests-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/P311GetMerchant/src/test/resources/com/bionics/edu/ExampleConfigurationTests-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1
