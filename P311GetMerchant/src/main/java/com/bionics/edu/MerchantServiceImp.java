@@ -1,5 +1,7 @@
 package com.bionics.edu;
 
+import java.util.List;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -11,4 +13,21 @@ public class MerchantServiceImp implements MerchantService {
 	public Merchant findById(int id) {
 		return merchantDao.findById(id);
 	}
+
+	public List<Merchant> findAll() {
+		return merchantDao.findAll();
+	}
+
+	public List<Merchant> getSortedByNeedToPay() {
+		return merchantDao.getSortedByNeedToPay();
+	}
+
+	public List<Result> getTotalReport() {
+	return merchantDao.getTotalReport();
+	}
+	
+	
+	
+	
+
 }

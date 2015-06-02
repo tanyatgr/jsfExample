@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Depo.css&apos; to &apos;Servers&apos;" description="Move &apos;Depo.css&apos; to &apos;Servers&apos;" destination="/Servers" element1="/P431FirstServlet/WebContent/WEB-INF/Depo.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1430415186490" updateReferences="true"/>
+</session>

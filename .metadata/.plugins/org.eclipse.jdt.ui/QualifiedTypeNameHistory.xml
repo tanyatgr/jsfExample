@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bionics.edu.Customer"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="com.bionics.edu.PaymentDao"/>
+<fullyQualifiedTypeName name="com.bionics.edu.Payment"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="com.bionics.edu.MerchantService"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
+<fullyQualifiedTypeName name="javax.xml.bind.JAXBException"/>
+<fullyQualifiedTypeName name="javax.xml.bind.JAXBContext"/>
+</qualifiedTypeNameHistroy>

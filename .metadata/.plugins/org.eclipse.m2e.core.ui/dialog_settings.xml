@@ -2,6 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="ciManagementUrl">
 		</list>
@@ -17,5 +35,55 @@
 		<item value="720" key="x"/>
 		<item value="165" key="y"/>
 		<item value="530" key="height"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\oper4\Tanya.Hrushenko\ee\P511Hello\src\main\java\com\bionic\edu\MessageBean.java"/>
+			<item value="C:\Users\oper4\Tanya.Hrushenko\ee\P441FirstJSP\WebContent\DateJsp.jsp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="edu.bionic.com.P563MerchantXML"/>
+			<item value="edu.bionic.com.P561FirstMarshaller"/>
+			<item value="com.bionic.edu"/>
+			<item value="com.bionic.edu.P442MavenJSP"/>
+		</list>
+		<list key="groupId">
+			<item value="edu.bionic.com"/>
+			<item value="com.bionic.edu"/>
+		</list>
+		<list key="artifactId">
+			<item value="P563MerchantXML"/>
+			<item value="P561FirstMarshaller"/>
+			<item value="P442MavenJSP"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

@@ -1,14 +1,19 @@
 package com.bionics.edu;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 public class CustomerDaoImpl implements CustomerDao {
 	@PersistenceContext
 	private EntityManager em;
+	
 
 	public Customer findById(int id) {
 		Customer c = null;
@@ -30,11 +35,21 @@ public class CustomerDaoImpl implements CustomerDao {
 	}
 
 	public void updateCcNo(int id, String ccNo) {
-		Customer customer = em.find(Customer.class, id); // помесить в контекст ентити менеджера
-		if(customer!=null){
+		Customer customer = em.find(Customer.class, id); // помесить в контекст
+															// ентити менеджера
+		if (customer != null) {
 			customer.setCcNo(ccNo);
 		}
-		
+
 	}
+
+	public List<String> getNames(double sumPayed) {
+		String txt = "SELECT DISTINCT c.name FROM ";
+		txt += "Payment p, Customer c ";
+		txt += "WHERE c.id = p.customerId AND p.sumPayed > 	" + sumPayed;
+		TypedQuery<String> query = em.createQuery(txt, String.class);
+		return query.getResultList();
+	}
+
 
 }

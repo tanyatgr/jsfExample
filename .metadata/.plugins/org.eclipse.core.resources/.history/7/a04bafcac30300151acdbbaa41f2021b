@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<title>New Merchant</title>
+</h:head>
+<h:body>
+	<h1>New Merchant</h1>
+	<h:form>
+		<h:panelGrid columns="3">
+			<h:outputText value="Merchant name:" />
+			<h:inputText id="mName" value="#{merchantBean.name}" required="true"
+				requiredMessage="#{msgs.nameRequired}">
+			</h:inputText>
+			<h:message for="mName" style="color:red" />
+  . .  The same for Bank name, Bank swift code, Account . .
+<h:outputText value="Charge percent:"></h:outputText>
+			<h:inputText id="charge" value="#{merchantBean.charge}"
+				required="true“ requiredMessage="
+				#{msgs.chargeRequired}"   
+     validatorMessage="#{msgs.chargeRange}">
+				<f:convertNumber minFractionDigits="2" />
+				<f:validateDoubleRange minimum="0.10" maximum="15.00" />
+			</h:inputText>
+			<h:message for="charge" style="color:red" />
+			<h:outputText value="Aggregation period:" />
+			<h:selectOneMenu value="#{merchantBean.period}">
+				<f:selectItem itemValue="1" itemLabel="Weekly" checked="true" />
+				<f:selectItem itemValue="2" itemLabel="Monthly" />
+				<f:selectItem itemValue="3" itemLabel="10 Days" />
+			</h:selectOneMenu>
+			<h:outputText value=" "></h:outputText>
+
+.  .  . Minimum sum – same as Charge percent  .  .  . 
+	     </h:panelGrid>
+		<h:commandButton value="Submit" action="#{merchantBean.saveMerchant}" />
+	</h:form>
+</h:body>
+</html>

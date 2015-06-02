@@ -6,12 +6,13 @@
 	<description>Example configuration to get you started.</description>
 	<context:component-scan base-package="com.bionics.edu" />
 	
+
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.apache.derby.jdbc.EmbeddedDriver" />
 		<property name="url" value="jdbc:derby:..//CM;create=true" />
 	</bean>
-	
+
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 		<property name="packagesToScan" value="com.bionics.edu" />
@@ -21,6 +22,7 @@
 			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect" />
 		</property>
 		<property name="jpaVendorAdapter">
+			
 			<bean
 				class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
 				<property value="true" name="showSql" />
@@ -28,6 +30,7 @@
 				<property name="databasePlatform"
 					value="org.eclipse.persistence.platform.database.DerbyPlatform" />
 			</bean>
+			
 		</property>
 		<property name="jpaPropertyMap">
 			<map>
@@ -35,7 +38,7 @@
 			</map>
 		</property>
 	</bean>
-	
+
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
 	</bean>

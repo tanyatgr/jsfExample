@@ -1,5 +1,7 @@
 package com.bionics.edu;
 
+import java.util.Collection;
+
 import javax.persistence.*;
 
 @Entity
@@ -17,6 +19,18 @@ public class Merchant {
 	private double needToSend;
 	private double sent;
 	private java.sql.Date lastSent;
+	
+	@OneToMany(mappedBy="merchant")
+	private Collection<Payment> payments;
+
+
+	public Collection<Payment> getPayments() {
+		return payments;
+	}
+
+	public void setPayments(Collection<Payment> payments) {
+		this.payments = payments;
+	}
 
 	public Merchant() {
 	}

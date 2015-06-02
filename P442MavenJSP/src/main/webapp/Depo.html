@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>New Deposit</h1>
+	<form action="newDepo.jsp" method="POST">
+		<table>
+			<tr>
+				<td>Deposit type:</td>
+				<td><input type="radio" name="depoType" value="simple" checked />
+					Simple <input type="radio" name="depoType" value="month" /> Month
+					Capitalize</td>
+			<tr>
+				<td>Start date:
+				<td><input type="text" name="start" />
+			<tr>
+				<td>Day long:
+				<td><input type="text" name="days" />
+			<tr>
+				<td>Sum:
+				<td><input type="text" name="sum" />
+			<tr>
+				<td>Interest rate:
+				<td><input type="text" name="rate" />
+		</table>
+		<input type="submit" value="Submit" />
+	</form>
+
+
+</body>
+</html>

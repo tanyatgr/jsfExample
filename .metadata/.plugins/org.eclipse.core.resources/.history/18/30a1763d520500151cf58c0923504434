@@ -1,0 +1,13 @@
+package edu.bionic.com.P561FirstMarshaller;
+
+public class FirstMarshaller {
+	public static void main(String[] args) throws JAXBException {
+		Person person = new Person();
+		person.setName("Oleg");
+		person.setAddress("Kiev");
+		JAXBContext jc = JAXBContext.newInstance(Person.class);
+		Marshaller m = jc.createMarshaller();
+		m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+		m.marshal(person, System.out);
+	}
+}

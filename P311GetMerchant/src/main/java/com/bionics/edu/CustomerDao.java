@@ -1,5 +1,7 @@
 package com.bionics.edu;
 
+import java.util.List;
+
 public interface CustomerDao {
 	public Customer findById(int id);
 	
@@ -8,5 +10,9 @@ public interface CustomerDao {
 	public void remove(int id);
 	
 	public void updateCcNo(int id, String ccNo);
+	
+	public List<String> getNames(double sumPayed);
+	
+	
 
 }

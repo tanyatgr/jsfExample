@@ -1,0 +1,6 @@
+02.06.2015 20:31:12.516 [main] WARN  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:9):
+					This is some warning
+02.06.2015 20:31:12.516 [main] INFO  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:10):
+					This is info message
+02.06.2015 20:31:12.516 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:12):
+					Debug message from a main method

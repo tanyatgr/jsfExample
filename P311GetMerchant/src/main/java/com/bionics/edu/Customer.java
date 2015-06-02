@@ -1,13 +1,21 @@
 package com.bionics.edu;
+
+import java.util.Collection;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Customer {
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private java.sql.Date maturity;
 	private String ccType;
@@ -15,8 +23,35 @@ public class Customer {
 	private String eMail;
 	private String address;
 	private String name;
+
+	@ManyToMany
+	@JoinTable(name = "Payment", joinColumns = @JoinColumn(name = "customerId"),
+	inverseJoinColumns = @JoinColumn(name = "merchantId"))
+	private Collection<Merchant> merchants;
 	
-	public Customer() {  }
+    @OneToMany(mappedBy="customer", 	cascade=CascadeType.PERSIST)
+    private Collection<Payment> payments;
+
+    
+
+	public Collection<Payment> getPayments() {
+		return payments;
+	}
+
+	public void setPayments(Collection<Payment> payments) {
+		this.payments = payments;
+	}
+
+	public Collection<Merchant> getMerchants() {
+		return merchants;
+	}
+
+	public void setMerchants(Collection<Merchant> merchants) {
+		this.merchants = merchants;
+	}
+
+	public Customer() {
+	}
 
 	public int getId() {
 		return id;
@@ -73,17 +108,13 @@ public class Customer {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public String toString () {
-		 String txt = "id = " + id + ";   name = ' ";
-	     txt += name + "';   address = ";
-	     txt += "" + address + ";   eMail = " ;
-	     txt += eMail + " ccType = " + ccType; 	
-	     return txt;
+
+	public String toString() {
+		String txt = "id = " + id + ";   name = ' ";
+		txt += name + "';   address = ";
+		txt += "" + address + ";   eMail = ";
+		txt += eMail + " ccType = " + ccType;
+		return txt;
 	}
-
-
-
-	
 
 }

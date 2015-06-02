@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="9">
+    <list key="modules" value0="P441FirstJSP::org.eclipse.jst.jee.server:P441FirstJSP::jst.web::3.1" value1="P442MavenJSP::org.eclipse.jst.j2ee.server:P442MavenJSP::jst.web::2.3" value2="P511Hello::org.eclipse.jst.jee.server:P511Hello::jst.web::2.5" value3="P512Hello::org.eclipse.jst.jee.server:P512Hello::jst.web::2.5" value4="P563MerchantXML::org.eclipse.jst.jee.server:P563MerchantXML::jst.web::2.5" value5="P571FirstWS::org.eclipse.jst.jee.server:P571FirstWS::jst.web::2.5" value6="P622MerchantWS::org.eclipse.jst.jee.server:P622MerchantWS::jst.web::2.5"/>
+  </server>
+</servers>
