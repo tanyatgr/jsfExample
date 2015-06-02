@@ -4789,3 +4789,79 @@ org.eclipse.core.runtime.CoreException: Launch configuration ClientMerchant refe
 2015-06-02 20:29:53,256 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
 2015-06-02 20:29:53,271 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-06-02 20:29:53,271 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:38:42,774 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:38:42,790 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:38:42,790 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:38:42,790 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:39:05,806 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:39:05,806 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:39:05,806 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:39:05,806 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:41:19,997 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:41:19,997 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:41:19,997 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:41:19,997 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:41:34,761 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:41:34,761 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:41:34,761 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:41:34,776 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:42:17,054 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:42:17,054 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:42:17,054 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:42:17,054 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:42:35,179 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:42:35,179 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:42:35,179 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:42:35,179 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:45:28,031 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:45:28,031 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:45:28,031 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:45:28,031 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:45:33,491 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:45:33,491 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:45:33,491 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:45:33,491 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:01,491 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:01,491 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:01,491 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:01,491 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:07,475 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:07,475 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:07,475 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:07,490 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:10,471 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:10,471 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:10,486 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:10,486 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:24,658 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:24,658 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:24,674 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:24,674 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:41,299 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:41,299 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:41,299 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:41,299 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:47:45,440 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:45,440 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:47:45,440 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:47:45,440 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:48:03,171 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:03,171 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:48:03,171 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:03,171 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:48:07,822 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:07,822 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:48:07,822 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:07,822 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:48:14,394 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:14,394 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:48:14,394 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:48:14,394 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:49:35,341 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:49:35,341 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:49:35,341 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:49:35,341 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources
+2015-06-02 20:49:57,655 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:49:57,655 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\main\resources
+2015-06-02 20:49:57,655 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-06-02 20:49:57,655 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oper4\Tanya.Hrushenko\ee\P61FirstLogging\src\test\resources

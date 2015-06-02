@@ -19,14 +19,5 @@ public class MainLog {
 			log.error(ex.getMessage(), ex);
 		}
 
-		String text = obj.getTrace("test");
-		if (log.isDebugEnabled()) {
-			log.debug(text);
-		}
-		text = obj.getTrace("redivider");
-		if (log.isDebugEnabled()) {
-			log.debug(text);
-		}
-
 	}
 }

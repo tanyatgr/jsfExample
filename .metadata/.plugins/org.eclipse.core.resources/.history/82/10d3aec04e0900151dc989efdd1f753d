@@ -20,13 +20,11 @@ public class MainLog {
 		}
 
 		String text = obj.getTrace("test");
-		if (log.isDebugEnabled()) {
+		if (log.isDebugEnabled())
 			log.debug(text);
-		}
 		text = obj.getTrace("redivider");
-		if (log.isDebugEnabled()) {
+		if (log.isDebugEnabled())
 			log.debug(text);
-		}
 
 	}
 }

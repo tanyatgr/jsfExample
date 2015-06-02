@@ -4,3 +4,75 @@
 					This is info message
 02.06.2015 20:31:12.516 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:12):
 					Debug message from a main method
+02.06.2015 20:39:33.457 [main] WARN  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:10):
+					This is some warning
+02.06.2015 20:39:33.459 [main] INFO  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:11):
+					This is info message
+02.06.2015 20:39:33.459 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:13):
+					Debug message from a main method
+02.06.2015 20:39:33.459 [main] ERROR com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:19):
+					This is my exception
+java.lang.RuntimeException: This is my exception
+	at com.bionic.edu.P61FirstLogging.LogMethods.callException(LogMethods.java:15) ~[classes/:?]
+	at com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:17) [classes/:?]
+02.06.2015 20:43:11.973 [main] WARN  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:10):
+					This is some warning
+02.06.2015 20:43:11.973 [main] INFO  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:11):
+					This is info message
+02.06.2015 20:43:11.973 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:13):
+					Debug message from a main method
+02.06.2015 20:43:11.973 [main] ERROR com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:19):
+					This is my exception
+java.lang.RuntimeException: This is my exception
+	at com.bionic.edu.P61FirstLogging.LogMethods.callException(LogMethods.java:15) ~[classes/:?]
+	at com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:17) [classes/:?]
+02.06.2015 20:43:11.973 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:24):
+					tset
+02.06.2015 20:43:11.973 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:28):
+					redivider
+02.06.2015 20:48:18.499 [main] WARN  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:10):
+					This is some warning
+02.06.2015 20:48:18.499 [main] INFO  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:11):
+					This is info message
+02.06.2015 20:48:18.499 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:13):
+					Debug message from a main method
+02.06.2015 20:48:18.499 [main] ERROR com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:19):
+					This is my exception
+java.lang.RuntimeException: This is my exception
+	at com.bionic.edu.P61FirstLogging.LogMethods.callException(LogMethods.java:15) ~[classes/:?]
+	at com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:17) [classes/:?]
+02.06.2015 20:48:18.514 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:21):
+					entry
+02.06.2015 20:48:18.514 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:27):
+					exit with(tset)
+02.06.2015 20:48:18.514 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:24):
+					tset
+02.06.2015 20:48:18.514 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:21):
+					entry
+02.06.2015 20:48:18.514 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:27):
+					exit with(redivider)
+02.06.2015 20:48:18.514 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:28):
+					redivider
+02.06.2015 20:50:04.917 [main] WARN  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:10):
+					This is some warning
+02.06.2015 20:50:04.917 [main] INFO  com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.callLogging(LogMethods.java:11):
+					This is info message
+02.06.2015 20:50:04.917 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:13):
+					Debug message from a main method
+02.06.2015 20:50:04.917 [main] ERROR com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:19):
+					This is my exception
+java.lang.RuntimeException: This is my exception
+	at com.bionic.edu.P61FirstLogging.LogMethods.callException(LogMethods.java:15) ~[classes/:?]
+	at com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:17) [classes/:?]
+02.06.2015 20:50:04.917 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:21):
+					entry
+02.06.2015 20:50:04.917 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:27):
+					exit with(tset)
+02.06.2015 20:50:04.917 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:24):
+					tset
+02.06.2015 20:50:04.917 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:21):
+					entry
+02.06.2015 20:50:04.917 [main] TRACE com.bionic.edu.P61FirstLogging.LogMethods com.bionic.edu.P61FirstLogging.LogMethods.getTrace(LogMethods.java:27):
+					exit with(redivider)
+02.06.2015 20:50:04.917 [main] DEBUG com.bionic.edu.P61FirstLogging.MainLog com.bionic.edu.P61FirstLogging.MainLog.main(MainLog.java:28):
+					redivider

@@ -30,7 +30,7 @@
 		</root>
 	</loggers>
 	<logger level="trace" additivity="false"
-		name="com.bionic.edu.P61FirstLoggigng.LogMethods">
+		name="com.bionic.edu.P64LoggerHierarchy.LogMethods">
 		<appender-ref ref="TraceAppender" />
 	</logger>
 

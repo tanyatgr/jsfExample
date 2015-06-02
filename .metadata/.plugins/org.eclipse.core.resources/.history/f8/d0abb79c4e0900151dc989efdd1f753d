@@ -15,18 +15,15 @@ public class LogMethods {
 		RuntimeException ex = new RuntimeException("This is my exception");
 		throw ex;
 	}
-
-	public String getTrace(String message) {
-		if (log.isTraceEnabled()) {
-			log.entry();
-		}
-		StringBuilder txt = new StringBuilder(message);
-		txt.reverse();
-		String ret = txt.toString();
-		if (log.isTraceEnabled()) {
-			return log.exit(ret);
-		}
-		return ret;
+	
+	public String getTrace(String message){
+	     if (log.isTraceEnabled()) log.entry();
+	     StringBuilder txt = new StringBuilder(message);
+	     txt.reverse();
+	     String ret = txt.toString();
+	     if (log.isTraceEnabled()) return log.exit(ret);
+	     return ret;
 	}
+
 
 }
